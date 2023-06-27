@@ -1,0 +1,191 @@
+{
+    "background_color": [
+        17,
+        17,
+        17,
+        255
+    ],
+    "background_margin": 0,
+    "background_margin_feather": 0,
+    "background_mode": 0,
+    "calibration_data": {
+        "asymmetrical": false,
+        "calib_dimension": {
+            "h": 2160,
+            "w": 3840
+        },
+        "calibrated_by": "DJI",
+        "calibrator_version": "---",
+        "camera_brand": "DJI",
+        "camera_model": "FC8183",
+        "camera_setting": "",
+        "compatible_settings": [
+        ],
+        "crop": null,
+        "crop_factor": null,
+        "date": "",
+        "digital_lens": null,
+        "digital_lens_params": null,
+        "distortion_model": null,
+        "fisheye_params": {
+            "RMS_error": 0,
+            "camera_matrix": [
+                [
+                    1405.1292724609375,
+                    0,
+                    1920
+                ],
+                [
+                    0,
+                    1405.1292724609375,
+                    1080
+                ],
+                [
+                    0,
+                    0,
+                    1
+                ]
+            ],
+            "distortion_coeffs": [
+                0.24991768598556519,
+                0.0136057548224926,
+                -0.06208358332514763,
+                0.012193071655929089
+            ],
+            "radial_distortion_limit": null
+        },
+        "focal_length": null,
+        "fps": 0,
+        "frame_readout_time": 9.72474984421467,
+        "global_shutter": false,
+        "gyro_lpf": null,
+        "identifier": "",
+        "input_horizontal_stretch": 0,
+        "input_vertical_stretch": 0,
+        "interpolations": null,
+        "lens_model": "",
+        "name": "",
+        "note": "",
+        "num_images": 0,
+        "official": true,
+        "orig_dimension": {
+            "h": 2160,
+            "w": 3840
+        },
+        "output_dimension": {
+            "h": 2160,
+            "w": 3840
+        },
+        "sync_settings": {
+            "do_autosync": false,
+            "every_nth_frame": 1,
+            "initial_offset": 0,
+            "initial_offset_inv": false,
+            "max_sync_points": 5,
+            "search_size": 0.5,
+            "time_per_syncpoint": 0.6
+        }
+    },
+    "gyro_source": {
+        "acc_rotation": [
+            0,
+            0,
+            0
+        ],
+        "gyro_bias": null,
+        "imu_orientation": null,
+        "integration_method": 0,
+        "lpf": 0,
+        "rotation": [
+            0,
+            0,
+            0
+        ]
+    },
+    "muted": false,
+    "output": {
+        "audio": false,
+        "audio_codec": "AAC",
+        "bitrate": 142,
+        "codec": "H.264/AVC",
+        "codec_options": "",
+        "encoder_options": "",
+        "keyframe_distance": 1,
+        "metadata": {
+            "comment": ""
+        },
+        "output_height": 2160,
+        "output_path": "/Volumes/One Touch/DJI/2023-06-24/",
+        "output_width": 3840,
+        "pad_with_black": false,
+        "preserve_other_tracks": false,
+        "use_gpu": true
+    },
+    "playback_speed": 1,
+    "stabilization": {
+        "adaptive_zoom_center_offset": [
+            0,
+            0
+        ],
+        "adaptive_zoom_method": 0,
+        "adaptive_zoom_window": 3,
+        "fov": 1,
+        "frame_readout_time": 9.72474984421467,
+        "horizon_lock_amount": 0,
+        "horizon_lock_roll": 0,
+        "lens_correction_amount": 1,
+        "method": "Default",
+        "smoothing_params": [
+            {
+                "name": "smoothness",
+                "value": 0.5
+            },
+            {
+                "name": "smoothness_pitch",
+                "value": 0.5
+            },
+            {
+                "name": "smoothness_yaw",
+                "value": 0.5
+            },
+            {
+                "name": "smoothness_roll",
+                "value": 0.5
+            },
+            {
+                "name": "per_axis",
+                "value": 0
+            },
+            {
+                "name": "trim_range_only",
+                "value": 0
+            },
+            {
+                "name": "max_smoothness",
+                "value": 1
+            },
+            {
+                "name": "alpha_0_1s",
+                "value": 0.1
+            }
+        ],
+        "use_gravity_vectors": false,
+        "video_speed": 1,
+        "video_speed_affects_smoothing": true,
+        "video_speed_affects_zooming": true
+    },
+    "synchronization": {
+        "auto_sync_points": false,
+        "calc_initial_fast": false,
+        "every_nth_frame": 1,
+        "initial_offset": 0,
+        "initial_offset_inv": false,
+        "max_sync_points": 5,
+        "of_method": 2,
+        "offset_method": 2,
+        "pose_method": 0,
+        "search_size": 0.5,
+        "time_per_syncpoint": 0.6
+    },
+    "version": 2
+}
